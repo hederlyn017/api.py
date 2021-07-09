@@ -31,7 +31,7 @@ configuration.api_key['api-secret-key'] = 'API KEY'
 # Initialization
 # Set Any Required Values
 api_instance = deepsecurity.ComputersApi(deepsecurity.ApiClient(configuration))
-api_version = 'v1'
+api_version = 'VERSION'
 expand_options = deepsecurity.Expand()
 expand_options.add(expand_options.none)
 expand = expand_options.list()
